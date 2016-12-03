@@ -1,5 +1,4 @@
 import * as React from "react";
 import { render } from "react-dom";
-import { routes } from "./routes";
-
-render(routes, document.getElementById("wow"));
+import { MainContent } from "./main_content";
+render(<MainContent/>, document.getElementById("wow"));
